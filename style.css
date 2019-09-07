@@ -1,5 +1,71 @@
+.icon{
+    display: block;
+    margin: 20px 0px 0px 30px;
+}
 
 body{
 	background-color:#036148;
-	color: white;
+	color:white;
 }
+
+a{
+	color:yellow;
+}
+a:hover{
+	color:yellow;
+	opacity: 0.8;
+}
+
+.bg-light{
+	background-color: #036148!important;
+}
+
+button.btn.btn-outline-success{
+	margin-left:20px;
+	border: white;
+	color: white;
+	background-color:#87B4A3;
+
+}
+
+button.btn.btn-outline-success:hover{
+	background-color:#87B4A3;
+	border:none;
+}
+
+.container{
+	width:65%;
+	/*padding-left: 50px;*/
+}
+
+head3{
+	text-align: center;
+}
+
+.head{
+	text-align:center;
+}
+
+/*.embed-responsive item{
+	width: 250px;
+	height: 300px;
+	margin-bottom: 150px;
+}
+*/
+
+
+
+@media screen and (min-width: 400px){
+	.container{
+		width:100%;
+	}
+
+} 
+
+footer{
+  width:80%;
+  padding: 8px 0px;
+  text-align:center;
+
+}
+
